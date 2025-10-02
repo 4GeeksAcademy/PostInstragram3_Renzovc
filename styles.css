@@ -1,0 +1,42 @@
+h1
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.post
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;      /* Pone los hijos en columna (uno debajo del otro) */
+}
+.tarjeta
+{
+  width: 200px;
+  /* height: 500px; */
+  /*padding: 50px;  */
+  border: 5px solid green;
+  margin: 10px;
+
+}
+
+.tarjeta img
+{
+    width:100%;
+}
+
+.tarjeta h1
+{
+    font-size: 15px;
+    
+    justify-content: left;
+
+}
+
+.tarjeta p
+{
+    font-size: 10px;
+    justify-content: center;
+
+}
